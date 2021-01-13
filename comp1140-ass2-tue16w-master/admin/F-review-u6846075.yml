@@ -1,0 +1,39 @@
+# Write your name and UID here.
+#
+reviewer:
+   name: Leopold Zhou
+   uid: u6846075
+
+# Write the name of the author of the code here.
+#
+author:
+  name: Fangxu Zhao
+  uid: u6822201
+
+# Write the class or method being reviewed here.
+#
+component: isStateValid() in Agamemnon class.
+
+# Write a list of review comments here.
+#
+comments:
+  - I started reviewing process about two weeks ago. And I have rewrite some parts of the code I mentioned above.
+  - However, I noted comments down, here they are.
+  - What are the best features of this code?
+  - This piece of code is excellent in determining if state is valid. Though it is basic I reckon it is
+  - important and each rule is specific and explicit, quite well.
+  - Is the code well-documented?
+  - Nope. If checking the git log, you'll find the document format is really bad. 3 points here, first he didn't keep
+  - the style consistent. I mean "//" and "/**/" format here. Second he missed a lot documents in some functions of
+  - specific lines, that makes reviewing quite painful. Third point is poor note, some linguist errors.
+  - Fixed now. I have been reviewing and rewriting it. It is much better now.
+  - Is the program decomposition (class and method structure) appropriate?
+  - Yes. I reckon he did it quite well. The method is consistent with the class.
+  - Does it follow Java code conventions (for example, are methods and variables properly named), and is the style consistent throughout?
+  - Mostly. However there are some tiny details. See the git log. Some variables should be final and picked out, so you
+  - can easily change them for further development.
+  - If you suspect an error in the code, suggest a particular situation in which the program will not function correctly.
+  - I rewrite most of them and they should work now. One remaining question here,
+  - private static boolean isTilesCorrectAmount(ArrayList list, boolean bool) how to imporve?
+
+

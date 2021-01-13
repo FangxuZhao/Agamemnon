@@ -1,0 +1,28 @@
+# Write your name and UID here.
+#
+reviewer:
+    name: Fangxu Zhao
+    uid: u6822201
+
+# Write the name of the author of the code here.
+#
+author:
+  name: Leopold Zhou
+  uid: u6846075
+
+# Write the class or method being reviewed here.
+#
+component: Viewer.java BonusFunctions.java
+
+# Write a list of review comments here.
+#
+comments:
+  - The code has been checked and works totally fine.
+  - And for code in this file is all designed by Leopold Zhou because i'm not good at the Javafx and he is beeter than me.
+  - the code is beautiful and very succinct, and its decomposition appropriate.
+  - The best features of this part of code is there is almost no recursive part (or loop)  in it which makes it convenient for us to debug if there is any problem in this code.
+  - The code is well-documented since the comments makes it easy to read, and it is easy to be recognized that its logic to achive the function is totally fine.
+  - It follows Java code conventions as its methods and variables are all properly named.
+  - The style is consistent.
+
+
