@@ -1,6 +1,3 @@
-# My role in this homework: Doing all the programming work of the whole Agamemnon class and wrote the comment.#
-
-
 # COMP1140 Assignment 2
 
 ## Academic Honesty and Integrity
